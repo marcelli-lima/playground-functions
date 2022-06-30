@@ -50,3 +50,14 @@ function highestCount(array) {
   return repetition
 }
 console.log(highestCount([0, 0, 0]));
+
+// Desafio 7
+function catAndMouse(mouse, cat1, cat2) {
+  if (Math.abs(mouse - cat1) < Math.abs(mouse - cat2)) {
+    return "cat 1"
+  } else if (Math.abs(mouse - cat2) < Math.abs(mouse - cat1)) {
+    return "cat 2"
+  }
+  return "os gatos trombam e o rato foge"
+}
+console.log(catAndMouse(3, -14, 5));
