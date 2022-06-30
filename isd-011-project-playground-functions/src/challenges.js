@@ -15,3 +15,10 @@ function splitSentence(string) {
 }
 
 console.log(splitSentence("go trybe"));
+
+function concatName(array) {
+  let concatenate = "";
+  concatenate = array[array.length - 1] + ", " + array[0]
+  return concatenate;
+}
+console.log(concatName(["marcelli", "carolini", "lima", "marcelino"]));
