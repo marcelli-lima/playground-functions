@@ -8,3 +8,10 @@ function calcArea(base, height) {
   return area;
 }
 console.log(calcArea(10, 50));
+
+function splitSentence(string) {
+  let array = string.split(' ')
+  return array;
+}
+
+console.log(splitSentence("go trybe"));
