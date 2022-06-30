@@ -4,6 +4,5 @@ function compareTrue(bolean, bolean2) {
   } else {
     return false;
   }
-
 }
 console.log(compareTrue(true, true));
