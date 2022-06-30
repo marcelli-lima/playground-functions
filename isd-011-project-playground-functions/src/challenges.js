@@ -30,3 +30,23 @@ function footballPoints(wins, ties) {
   return spots;
 }
 console.log(footballPoints(2, 1));
+
+// Desafio 6
+
+function highestCount(array) {
+  let higherNumber = array[0];
+  let repetition = 0;
+  // primeiro achar o maior numero
+  for (let index of array) {
+    if (index >= higherNumber) {
+      higherNumber = index;
+    }
+  }
+  for (let index of array) {
+    if (higherNumber === index) {
+      repetition += 1;
+    }
+  }
+  return repetition
+}
+console.log(highestCount([0, 0, 0]));
