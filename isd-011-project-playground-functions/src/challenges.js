@@ -80,3 +80,46 @@ function fizzBuzz(array) {
   return resposta
 }
 console.log(fizzBuzz([2, 15, 7, 9, 45]));
+
+// Desafio 9
+function encode(string) {
+  let codi = "";
+  for (let letter of string) {
+    if (letter === "a") {
+      codi += "1"
+    } else if (letter === "e") {
+      codi += "2"
+    } else if (letter === "i") {
+      codi += "3"
+    } else if (letter === "o") {
+      codi += "4"
+    } else if (letter === "u") {
+      codi += "5"
+    } else {
+      codi += letter
+    }
+  }
+  return codi
+}
+console.log(encode("hi there!"));
+
+function decode(string) {
+  let decode = "";
+  for (let letter of string) {
+    if (letter === "1") {
+      decode += "a"
+    } else if (letter === "2") {
+      decode += "e"
+    } else if (letter === "3") {
+      decode += "i"
+    } else if (letter === "4") {
+      decode += "o"
+    } else if (letter === "5") {
+      decode += "u"
+    } else {
+      decode += letter
+    }
+  }
+  return decode
+}
+console.log(decode("h3 th2r2!"));
