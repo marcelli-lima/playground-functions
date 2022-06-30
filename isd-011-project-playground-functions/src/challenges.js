@@ -22,3 +22,11 @@ function concatName(array) {
   return concatenate;
 }
 console.log(concatName(["marcelli", "carolini", "lima", "marcelino"]));
+
+// Desafio 5
+function footballPoints(wins, ties) {
+  let spots = 0;
+  spots = (wins * 3) + ties
+  return spots;
+}
+console.log(footballPoints(2, 1));
