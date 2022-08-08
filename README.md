@@ -1,6 +1,8 @@
 # Playground Functions
 
-### Projeto para prática de funções
+## Esse projeto tem como objetivo desenvolver funções seguindo requisitos especificos para o correto comportamento de cada uma delas utilizando as melhores práticas.
+
+### Requisitos
 
 1 - Crie uma função usando o operador &&.
 
