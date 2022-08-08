@@ -26,4 +26,4 @@
 
 12 - Crie uma função de Condição de existência de um triângulo.
 
-13 - Crie uma função de Bem vindo ao Bar da Trybe!
+13 - Crie uma função de Bem vindo ao Bar!
