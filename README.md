@@ -29,3 +29,7 @@
 12 - Crie uma função de Condição de existência de um triângulo.
 
 13 - Crie uma função de Bem vindo ao Bar!
+
+### 🛠 Tecnologias
+
+ <img align="center" alt="Celi-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> JavaScript
